@@ -1,6 +1,14 @@
 {
-  "name": "schemeplusAI-backend",
+  "name": "schemeplusai-backend",
   "version": "1.0.0",
+  "description": "Backend prototype for Scheme Plus.ai",
   "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
   "license": "MIT"
 }
